@@ -1,0 +1,24 @@
+:root {
+    --modal-background-color: hsl(0deg 0% 0% / 75%);
+    --modal-backdrop-blur: 4px;
+    --modal-border-radius: 12px;
+    --modal-padding: 1.5rem;
+
+    --text-shadow: 0 2px 2px hsl(0 0 0% / 50%);
+    --text-shadow-light: 0 3px 2px hsl(0 0 100% / 30%);
+
+    --transition: all 120ms ease-out;
+}
+
+@import "./styles/transitions.scss";
+
+body.no-scroll {
+    overflow: hidden;
+    touch-action: none;
+}
+
+button {
+    &:hover {
+        cursor: pointer;
+    }
+}
