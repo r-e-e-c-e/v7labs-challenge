@@ -46,7 +46,7 @@ Note: API can be cleared on entity page but the page will still load. Auth is on
 9. Rename Project modal component.
 10. Icons, transitions, basic CSS var usage.
 
-IMPROVEMENTS
+**IMPROVEMENTS**
 
 1. Clean up styles. Centralise some styles.
 2. Add loading state to modals.
